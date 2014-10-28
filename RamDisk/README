@@ -1,0 +1,13 @@
+
+1. caches_to_ramdisk.sh
+It use to create Ram Disk and link User caches to Ram Disk.
+It need sudo privilege. 
+When it finish all of the install, it will ask you to logout. 
+Please just logout, it will let all setting really work.
+
+2. recovery_to_original.sh
+It will remove any relate files which caches_to_ramdisk.sh creates, 
+then unmount the Ram Disk and put User caches to original locations.
+
+3. other files
+Those are used to help create files for ramdisk.
